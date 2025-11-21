@@ -1,9 +1,43 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 20px;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    min-height: 100vh;
 }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.weather-card {
+    margin: 20px 0;
+}
+
 button {
-    background: blue;
+    background: #00b894;
     color: white;
-    padding: 10px;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background: #00a085;
+}
+
+#weather-info {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin: 20px 0;
 }
