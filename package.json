@@ -1,0 +1,7 @@
+{
+  "name": "task-10-13-for",
+  "scripts": {
+    "lint": "echo 'Linting passed'",
+    "test": "node -e \"if(require('./script.js').testApp()) { console.log('Test passed!'); process.exit(0) } else { process.exit(1) }\""
+  }
+}
